@@ -24,6 +24,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/attrs-25.3.0-pyh71513ae_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/awkward-2.8.6-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/awkward-cpp-48-py312h1e80e48_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/awkward-pandas-2023.8.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/aws-c-auth-0.9.0-h92a005d_16.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/aws-c-cal-0.9.2-he7b75e1_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/aws-c-common-0.12.4-hb03c661_0.conda
@@ -430,6 +431,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/attrs-25.3.0-pyh71513ae_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/awkward-2.8.6-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/awkward-cpp-48-py312ha5fbdbc_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/awkward-pandas-2023.8.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/aws-c-auth-0.9.0-h7b7b1db_16.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/aws-c-cal-0.9.2-h6f29d6d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/aws-c-common-0.12.4-h1c43f85_0.conda
@@ -778,6 +780,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/attrs-25.3.0-pyh71513ae_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/awkward-2.8.6-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/awkward-cpp-48-py313hf88c9ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/awkward-pandas-2023.8.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/aws-c-auth-0.9.0-hed7f23c_16.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/aws-c-cal-0.9.2-hd08b81e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/aws-c-common-0.12.4-h6caf38d_0.conda
@@ -1475,6 +1478,18 @@ packages:
   license_family: BSD
   size: 467227
   timestamp: 1753943650672
+- conda: https://conda.anaconda.org/conda-forge/noarch/awkward-pandas-2023.8.0-pyhd8ed1ab_0.conda
+  sha256: c416d6e34720580a8618dc9f4df8f0b9923ea6a22ded2a95d14faac06653a506
+  md5: 9cd2ae77926cf8b8a9fb19ff8ec55d2c
+  depends:
+  - awkward >=2.0.0
+  - pandas >=1.2
+  - pyarrow >=7.0.0
+  - python >=3.8
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 15660
+  timestamp: 1692289358730
 - conda: https://conda.anaconda.org/conda-forge/linux-64/aws-c-auth-0.9.0-h92a005d_16.conda
   sha256: 93f3cf66d042409a931cef62a06f4842c8132dd1f8c39649cbcc37ba2fe8bce8
   md5: 31c586a1415df0cd4354b18dd7510793

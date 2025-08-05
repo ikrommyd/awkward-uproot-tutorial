@@ -15,6 +15,7 @@ depends-on = ["lab"]
 [dependencies]
 aiohttp = ">=3.12.14,<4"
 awkward = ">=2.8.5,<3"
+awkward-pandas = ">=2023.8.0,<2024"
 fsspec = ">=2025.7.0,<2026"
 fsspec-xrootd = ">=0.5.1,<0.6"
 xrootd = ">=5.8.1,<6"
