@@ -9,36 +9,12 @@ git clone https://github.com/ikrommyd/awkward-uproot-tutorial.git
 cd awkward-uproot-tutorial
 ```
 
-Then, install the `pixi` tool if you haven't already. You can do this with `pip`:
-```
-
 Make sure you've [installed pixi](https://pixi.sh/latest/installation/) on your computer.
 
 Then you can install the environment and start a local JupyterLab session with:
 
 ```shell
 pixi run start
-```
-## Alternative: run the notebooks on your computer with `uv` or a standard Python `venv`
-
-Make sure you've [installed uv](https://docs.astral.sh/uv/getting-started/installation/) on your computer.
-
-Then you can install the environment and start a local JupyterLab session with uv:
-
-```shell
-uv venv --python=3.13
-source .venv/bin/activate
-uv pip install -r requirements.txt
-jupyter lab
-```
-
-or with a standard Python `venv`:
-
-```shell
-python3.13 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
 ```
 
 ## Alternative: run the notebooks on your computer with `conda`/`mamba`
